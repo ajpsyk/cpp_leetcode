@@ -1,7 +1,7 @@
 from typing import List
 
 
-# this solution relies on the fact that there are only 26 lowercase letters, so we can use a fixed-size array 
+# This solution relies on the fact that there are only 26 lowercase letters, so we can use a fixed-size array 
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         res = []
